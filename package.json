@@ -1,7 +1,7 @@
 {
-  "name": "uglifyify",
+  "name": "@vend/uglifyify",
   "version": "5.0.1",
-  "description": "A browserify transform which minifies your code using UglifyJS2",
+  "description": "A browserify transform which minifies your code using terser",
   "main": "index.js",
   "dependencies": {
     "convert-source-map": "~1.1.0",
