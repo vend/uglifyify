@@ -77,8 +77,6 @@ function uglifyify(file, opts) {
     if (min.map && min.map !== 'null') {
       var map = convert.fromJSON(min.map)
 
-      map.setProperty('sources', [path.basename(file)])
-
       this.queue('\n')
       this.queue(map.toComment())
     }
