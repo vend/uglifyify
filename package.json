@@ -1,5 +1,5 @@
 {
-  "name": "@vend/uglifyify",
+  "name": "@vendhq/uglifyify",
   "version": "5.0.1",
   "description": "A browserify transform which minifies your code using terser",
   "main": "index.js",
@@ -36,5 +36,8 @@
   ],
   "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "publishConfig": {
+    "access": "public"
+  }
 }
