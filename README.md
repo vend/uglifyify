@@ -3,6 +3,11 @@
 A [Browserify](http://browserify.org) v2 transform which minifies your code
 using [terser](https://github.com/fabiosantoscode/terser) (a maintained fork of uglify-es).
 
+This fork contains fixes for some longstanding issues including:
+* https://github.com/hughsk/uglifyify/issues/88
+* https://github.com/hughsk/uglifyify/pull/85
+* https://github.com/hughsk/uglifyify/pull/42 (partially)
+
 ## Installation
 
 ``` bash
