@@ -50,6 +50,7 @@ function uglifyify(file, opts) {
 
     // remove exts before passing opts to uglify
     delete _opts.global
+    delete _opts.ignore
     delete _opts.exts
     delete _opts.x
     delete _opts._
