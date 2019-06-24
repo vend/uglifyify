@@ -1,13 +1,13 @@
 {
   "name": "@vendhq/uglifyify",
-  "version": "5.1.0",
+  "version": "5.1.1",
   "description": "A browserify transform which minifies your code using terser",
   "main": "index.js",
   "dependencies": {
     "convert-source-map": "~1.1.0",
     "extend": "^1.2.1",
     "minimatch": "^3.0.2",
-    "terser": "^3.7.5",
+    "terser": "^3.10.7",
     "through": "~2.3.4"
   },
   "devDependencies": {
