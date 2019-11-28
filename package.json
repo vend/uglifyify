@@ -5,9 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "convert-source-map": "~1.1.0",
-    "extend": "^1.2.1",
     "minimatch": "^3.0.2",
-    "terser": "^3.10.7",
+    "terser": "^4.3.9",
     "through": "~2.3.4"
   },
   "devDependencies": {

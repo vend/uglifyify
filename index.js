@@ -3,7 +3,6 @@ var minimatch = require('minimatch').Minimatch
   , through = require('through')
   , path = require('path')
   , ujs = require('terser')
-  , extend = require('extend')
 
 module.exports = uglifyify
 
@@ -37,7 +36,7 @@ function uglifyify(file, opts) {
     buffer += chunk
   }, capture(function ready() {
     debug = opts.sourceMap !== false && debug
-    var _opts  = extend({}, {
+    var _opts  = Object.assign({}, {
       compress: true,
       mangle: true,
       sourceMap: {
